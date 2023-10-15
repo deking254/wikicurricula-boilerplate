@@ -1248,4 +1248,6 @@ $(document).ready(function() {
 	dv1(2023,random_subject,parseInt(1));
 	get_year();
 });
-
+addEventListener('orientationchange', function () {
+	location.reload();
+});
